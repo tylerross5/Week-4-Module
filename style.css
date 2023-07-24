@@ -1,0 +1,109 @@
+body {
+    line-height: 1.5;
+    width: 60%;
+    margin: 0 auto;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+.centered {
+    text-align: center;
+  }
+  
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px 0;
+  }
+  
+
+.timer {
+    font-size: 20px;
+}
+  
+
+  
+.start-quiz {
+    text-align: center;
+}
+  
+h1 {
+    margin-bottom: 10px;
+}
+  
+ h2 {
+    color: black;
+    border-top: 1px solid var(--tertiary-color);
+    margin: 20px 0;
+    font-style: italic;
+    text-align: center;
+  }
+  
+ 
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+button {
+    border: none;
+    width: auto;
+    overflow: visible;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: large;
+    margin: 10px;
+    color: var(--white-color);
+    cursor: pointer;
+  }
+  
+  
+  
+  .hide {
+    display: none;
+  }
+  
+  .btn.correct {
+    background-color: var(--correct-color);
+  }
+  
+  .btn.wrong {
+    background-color: var(--tertiary-color);
+  }
+  
+ 
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  
+  input[type="text"] {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid var(--tertiary-color);
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+ 
+ 
+  
+ 
+  
+ 
+  @media screen and (max-width: 575px) {
+    .btn-grid {
+      grid-template-columns: repeat(1, auto);
+      gap: 0;
+      margin: 0;
+    }
+  }
